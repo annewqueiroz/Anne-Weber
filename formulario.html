@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+  <body>
+
+    <nav>
+    <ul id="menu">
+     
+      <li id="logo1"><a href="index.html">Início </a></li>
+      <li id="logo2"><a href="formulario.html">Formulário</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2 id="chamada">Para receber informações semanais dos eventos que acontencem em Curitiba, preencha o formulário:</h2>
+  </header> 
+
+    <div class="formulario">
+      
+      <form action="formulario"             method="post">
+
+        <div class="nome">
+        <p class="titulos">Qual o seu nome?</p>
+          <label for="nome" id="j"></label>
+          <input type="text" name="nome" id="nome" maxlength="100" required />
+        </div>
+        
+        <div class="email">
+            <p class="titulos">E-mail:</p>
+            <label for="email"></label
+          >
+             <input type="email" name="email" id="email" required />
+        </div>
+        
+        <div class="data de nascimento">
+            <p class="titulos">Qual a data do seu nascimento?</p>
+            <label for="nascimento"></label
+          >
+            <input type="date" name="data" id="data" required />
+        </div>
+        
+        <div class="número">
+            <p class="titulos">O seu número de telefone:</p>
+            <label for="phone"></label
+          >
+            <input
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder="(xx)xxxxxxxx"
+            required
+          />
+        </div>
+
+        <div id="eventos">
+        <p id= "interesse"> 
+          
+            <p class="escolha">Escolha o(s) tema(s) de interesse:</p>
+
+               <label for="checkbox">Comida</label>
+               <input type="checkbox" name="interesses" value="Comida">
+   
+               <label for="checkbox">Cinema</label>
+               <input type="checkbox" name="interesses" value="Cinema">
+   
+               <label for="checkbox">Parques</label>
+               <input type="checkbox" name="interesses" value="Parques">
+
+               <label for="checkbox">Esportes</label>
+               <input type="checkbox" name="interesses" value="Esportes">
+               
+            </p>
+        </div>
+
+        <div class="dúvida">
+
+            <p class="titulos">Tem alguma dúvida? Escreva abaixo:</p>
+          
+            <label for="dúvida"></label>
+            <textarea name="dúvida" id="dúvida"></textarea>
+        </div>
+
+           <div id="botao enviar">
+
+        <button type="submit" class="enviar">Enviar</button>
+
+      </div>
+
+      <div id="botao voltar">
+        <button type="reset" class="voltar">Voltar</button>
+      </div>
+
+      </form>
+    </div>
+
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Strait&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(./img/img1.jpg);
+}
+header{
+    color: rgb(254, 254, 254);
+    background-color: #533745;
+    padding: 30px 0px 30px 0px;
+    z-index: 10;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+nav #menu {
+    box-sizing: border-box;
+    list-style: none;
+    background-color:beige;
+    text-align: left;
+    box-shadow: 2px 2px 2px;
+    top: 1000px;
+    left: 150px;
+  }
+  
+  nav #menu li {
+    display: inline;
+  }
+  
+  nav #menu li a {
+    color: #533745;
+    font-family: 'Strait', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    top: 1000px;
+    left: 150px
+  }
+  
+  nav #menu li a:hover {
+    background-color: #533745;
+    color: white;
+    top: 1000px;
+    left: 150px
+  }
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: -30px;
+    position: absolute;
+    padding: 10px;
+    left: 320px;
+    
+}
+.sobre{
+    font-family: 'Strait', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px 5px;
+    z-index: 10;
+    text-align: justify;
+    position:absolute;
+    left: 15px;
+    top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+        background-color: beige;
+        opacity: 0.8;
+}
+#Video-Frame {
+    position: absolute;
+    top:300px;
+    left:50px;
+}
+h3{
+    font-family: 'Strait', monospace;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -28px;
+    position: absolute;
+    padding: 10px 20px 20px 30px;
+    left: 15px;
+    top: 1100px;
+        background-color: ivory;
+        border-radius: 10px;
+        opacity: 0.8;
+}
+.lista-curiosidades{
+    margin-left: 50px;
+    font-family: 'Strait', sans-serif;
+    position: absolute;
+    color:black;
+    left: 15px;
+    top: 1130px;
+    font-size: 20px;
+        background-color: beige;
+        opacity: 0.8;
+        border-radius: 10px;
+        padding: 10px 20px 20px 30px;
+}
+    .instagram{
+    position: absolute;
+    top: 1280px;
+    left: 50px;
+    }
+    .youtube{
+        position: absolute;
+        top: 1280px;
+        left: 150px;
+    } 
+    .prefeitura{
+        position: absolute;
+        top: 1280px;
+        left: 270px;
+    }
